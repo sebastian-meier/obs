@@ -43,7 +43,7 @@ On first launch the software will run you through a tutorial for the initial set
 
 I am personally recording & streaming a 1920*1080 video feed. But obviously this also depends on the content you produce. It also depends on your bandwidth. Slow bandwidth might require a lower resolution. To set your video output size:
 
-![Settings Button](./readme_graphics/01-settings.png =410x)
+<img src="./readme_graphics/01-settings.png" width="410">
 
 Click on settings.
 
