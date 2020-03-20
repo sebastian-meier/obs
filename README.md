@@ -73,7 +73,7 @@ For some reason, scaling things, while keeping the height/width ratio locked, is
 
 ### Fonts
 
-I had some problems with certain fonts and using different font styles (bold, italic). Arial (even though not the nices font) has proven to be very reliable.
+I had some problems with certain fonts and using different font styles (bold, italic). Arial (even though not the nices font) has proven to be very reliable. For those a little bit more experimental, i have included the Lato font in the assets/Lato2OFL folder, which is available under Open Font License.
 
 ### Showing Presentations
 
@@ -116,6 +116,9 @@ The rest of the screens come in three different versions: Focus (Mix of Content,
 ### Zooming
 
 As i will be doing software and coding tutorials mostly, an additional requirement for me is zooming onto elements in the software. OBS cannot do this out of the box. Windows and Mac both (and i am sure linux as well) have build in magnifiers. They are easy to use through hot keys. Following the setup for MacOS:
+
+## Copyright Notice
+This explanation, as well as the templates themselves are available unter MIT license. The images and logos in the assets folder are property of the HCU and thereby protected.
 
 # Deutsche Version
 
