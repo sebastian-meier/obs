@@ -59,11 +59,15 @@ What is quite nice, you can reuse content you once added. The good thing about t
 
 ### Adding Text > Text Width
 
+![Text Settings](./readme_graphics/03-text.png)
+
 Text is quite straight forward. Things to know, there are two colors, you need to adjust both, otherwise, you have a gradient in your text. If you want to write longer text and want the text to automatically wrap: scroll to the end of the text properties box, enter a text-width and check "wrap text".
 
 There is a special option for live feeding text from a text file. I am using this to show students the current step we are working on. Therefore check "Read from file" and select a text file below. As you update your local text file, the text will update automatically in the video (again, good to have a second monitor to do these things while screen recording on the other).
 
 ### Scaling Content
+
+![Scaling Settings](./readme_graphics/04-scaling.png)
 
 For some reason scaling things, while keeping the height/width ratio locked is a bit buggy at times. The easiest way to fix this. Right-click on the content > Transform > Edit Transform > Bounding Box > Scale to inner bounds. Now you can resize as you want the content inside the bounding box will keep it's ratio.
 
@@ -76,6 +80,8 @@ I had some problems with certain fonts and using different font styles (bold, it
 I used a PDF-viewer like Acrobat in full screen on the secondary screen, which worked nicely, still able to see the OBS controls and could simply click through the presentation. I used my Screen or Window Template Scences for this.
 
 ### Exporting Video Files
+
+![Video Export](./readme_graphics/05-export.png)
 
 Once you recorded a video, your video data is stored (per default, recommended) in an MKV file format. In order to turn this into a usable video format, like MP4, got to the Menu "File", select "Remux Recordings". Select the recordings you want to convert. And press the Remux button. After remuxing is done, press the "Clear finished items" button.
 
