@@ -37,6 +37,8 @@ There is no undo/redo button 🤯!
 
 On first launch the software will run you through a tutorial for the initial settings, no worries, you can change everything later from the settings menu.
 
+![Screen Overview](./readme_graphics/00-overview.png)
+
 ### Size/Resolution of your streaming output
 
 I am personally recording & streaming a 1920*1080 video feed. But obviously this also depends on the content you produce. It also depends on your bandwidth. Slow bandwidth might require a lower resolution. To set your video output size:
@@ -44,6 +46,7 @@ I am personally recording & streaming a 1920*1080 video feed. But obviously this
 ![Settings Button](./readme_graphics/01-settings.png)
 Click on settings.
 
+![Video Settings](./readme_graphics/02-video-settings.png)
 Go to Video and set the resolution. For slow bandwidth you could also reduce the frames per second (FPS).
 
 ### Adding Content
