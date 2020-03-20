@@ -53,23 +53,23 @@ Go to Video and set the resolution. For slow bandwidth you could also reduce the
 
 ### Adding Content
 
-There are different type of contents, for creating your seminar, most importantly Browser (show content from the web, this can also be local content), Display Capture or Window (screen   recording), Image, Text and Video Capture Device (webcam). For adding new material, simply go to the "Sources" panel, click the "+" button and add the content you require. The initial configuration of the object can be opened through a double click or right-click > "Properties".
+There are different types of content, for creating your seminar, most importantly Browser (show content from the web, this can also be local content), Display Capture or Window (screen   recording), Image, Text and Video Capture Device (webcam). For adding new material, simply go to the "Sources" panel, click the "+" button and add the content you require. The initial configuration of the object can be opened through a double click or right-click > "Properties".
 
 What is quite nice, you can reuse content you once added. The good thing about this, is also a possible problem, if you for example reuse a Browser-Source and change the URL, the URL will change in all other instances of that Browser-Source. Important to keep in mind.
 
 ### Adding Text > Text Width
 
-![Text Settings](./readme_graphics/03-text.png)
-
 Text is quite straight forward. Things to know, there are two colors, you need to adjust both, otherwise, you have a gradient in your text. If you want to write longer text and want the text to automatically wrap: scroll to the end of the text properties box, enter a text-width and check "wrap text".
+
+![Text Settings](./readme_graphics/03-text.png)
 
 There is a special option for live feeding text from a text file. I am using this to show students the current step we are working on. Therefore check "Read from file" and select a text file below. As you update your local text file, the text will update automatically in the video (again, good to have a second monitor to do these things while screen recording on the other).
 
 ### Scaling Content
 
-![Scaling Settings](./readme_graphics/04-scaling.png)
+<img src="./readme_graphics/04-scaling.png" width="585">
 
-For some reason scaling things, while keeping the height/width ratio locked is a bit buggy at times. The easiest way to fix this. Right-click on the content > Transform > Edit Transform > Bounding Box > Scale to inner bounds. Now you can resize as you want the content inside the bounding box will keep it's ratio.
+For some reason, scaling things, while keeping the height/width ratio locked, is a bit buggy at times. The easiest way to fix this. Right-click on the content > Transform > Edit Transform > Bounding Box > Scale to inner bounds. Now you can resize as you want the content inside the bounding box will keep it's ratio.
 
 ### Fonts
 
