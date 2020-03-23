@@ -6,7 +6,7 @@ This document and the templates are work in progress...
 
 ## Introduction
 
-As COVID19 is changing the way we teach this semester, i explored multiple tools for creating video content for my students. I decided to pick Open Broadcaster Software (OBS) Studio, as it has all the features (scenes, webcam, app and text input) i need, it is open source and available for mac, windows and linux. In the following i will give a very brief introduction to the software, as well as a guide on how to use my prepared templates for any HCU colleagues that are interested (or anyone else who wants to use them as a boilerplate).
+As COVID19 is changing the way we teach this semester, I explored multiple tools for creating video content for my students. I decided to pick Open Broadcaster Software (OBS) Studio, as it has all the features (scenes, webcam, app and text input) I need, it is open source and available for Mac, Windows and Linux. In the following I will give a very brief introduction to the software, as well as a guide on how to use my prepared templates for any HCU colleagues that are interested (or anyone else who wants to use them as a boilerplate).
 
 This is fast-forward introduction, focussing on using OBS for teaching. There are lots of detailed tutorials and introductions to OBS out there, e.g.: https://streamshark.io/obs-guide/
 
@@ -18,9 +18,9 @@ OBS is free, open source and financially supported by a couple of companies: twi
 
 ## Requirements
 
-You only need a computer, everything else is optional. But for a good recording i would recommend: 
-1. A secondary screen: Having a second screen where you can run the OBS app on and the the other screen for screen capturing. If you are livestreaming you will also need the OBS screen for interacting with your peers. 
-2. A webcam: While many laptops and screens have built in cams, they are often in an not ideal angle, try to position the camera straight in front of you, in order to avoid weird distortions and angles.
+You only need a computer, everything else is optional. But for a good recording I would recommend: 
+1. A secondary screen: Having a second screen where you can run the OBS app on and the other screen for screen capturing. If you are livestreaming, you will also need the OBS screen for interacting with your peers. 
+2. A webcam: While many laptops and screens have built in cams, they are often in a not ideal angle, try to position the camera straight in front of you, in order to avoid weird distortions and angles.
 3. A mic: Check if the mic build into your laptop is good enough, otherwise get an external one.
 
 ## Get started
@@ -73,11 +73,11 @@ For some reason, scaling things, while keeping the height/width ratio locked, is
 
 ### Fonts
 
-I had some problems with certain fonts and using different font styles (bold, italic). Arial (even though not the nices font) has proven to be very reliable. For those a little bit more experimental, i have included the Lato font in the assets/Lato2OFL folder, which is available under Open Font License (http://www.latofonts.com/).
+I had some problems with certain fonts and using different font styles (bold, italic). Arial (even though not the nicest font) has proven to be very reliable. For those a little bit more experimental, I have included the Lato font in the assets/Lato2OFL folder, which is available under Open Font License (http://www.latofonts.com/).
 
 ### Showing Presentations
 
-I used a PDF-viewer like Acrobat in full screen on the secondary screen, which worked nicely, still able to see the OBS controls and could simply click through the presentation. I used my Screen or Window Template Scences for this.
+I used a PDF-viewer like Acrobat in full screen on the secondary screen, which worked nicely, still able to see the OBS controls and could simply click through the presentation. I used my Screen or Window Template scenes for this.
 
 ### Exporting Video Files
 
@@ -91,13 +91,13 @@ I prepared some templates for my classes at the HafenCity University Hamburg, ev
 
 For importing the files, download this repository, unpack and then go to "Scene Collection" > Import and select the hcu_templates/hcu_templates.json file.
 
-After importing this you should see the following scenes. **One problem**: OBS stores all media as absolute paths, therefore, you need to reconnect all the media files i used. The media files are all located in hcu_templates/assets/... Simply double click the sources and reconnect. As all of you have different devices, you also need to set the Video Capture Device, as well as Secondary Screens and Windows. For those who know how to handle a JSON file, you can also quickly search-and-replace the paths to the media files.
+After importing this you should see the following scenes. **One problem**: OBS stores all media as absolute paths, therefore, you need to reconnect all the media files I used. The media files are all located in hcu_templates/assets/... Simply double click the sources and reconnect. As all of you have different devices, you also need to set the Video Capture Device, as well as Secondary Screens and Windows. For those who know how to handle a JSON file, you can also quickly search-and-replace the paths to the media files.
 
 #### Overview
 
 ![Grid view](./readme_graphics/obs-7-Grid.png)
 
-All scenes have a hidden "Grid"-Source. OBS does not have guides or a grid, which makes aligning stuff hard. In order to make this easier, i have created a simple grid one can use to align and resize elements.
+All scenes have a hidden "Grid"-Source. OBS does not have guides or a grid, which makes aligning stuff hard. In order to make this easier, I have created a simple grid one can use to align and resize elements.
 
 ##### Intro
 
@@ -122,7 +122,7 @@ This is the companion to the Intro screen. The outro is also using one of three 
 
 ![Webcam screen](./readme_graphics/obs-2-Webcam-Focus.png)
 
-Webcam focus puts focus on the webcam input, i am using this for kicking off my lecture with some personal notes. Overview of topics on the right, coming from a text file and a preview of the slides following next in the upper right corner. If you want to use the live-text, don't forget to reconnect it your own text file, or the one from the assets folder.
+Webcam focus puts focus on the webcam input, I am using this for kicking off my lecture with some personal notes. Overview of topics on the right, coming from a text file and a preview of the slides following next in the upper right corner. If you want to use the live-text, don't forget to reconnect it your own text file, or the one from the assets folder.
 
 #### Other screens
 
@@ -138,7 +138,7 @@ The rest of the screens come in three different versions: Focus (Video-Content, 
 
 ### Zooming
 
-As i will be doing software and coding tutorials mostly, an additional requirement for me is zooming onto elements in the software. OBS cannot do this out of the box. Windows and Mac both (and i am sure linux as well) have build in magnifiers. They are easy to use through hot keys. Following the setup for MacOS:
+As I will be doing software and coding tutorials mostly, an additional requirement for me is zooming onto elements in the software. OBS cannot do this out of the box. Windows and Mac both (and I am sure Linux as well) have built-in magnifiers. They are easy to use through hot keys. Following the setup for MacOS:
 
 ![Setting up zoom on osx](./readme_graphics/zoom-osx-1.png)
 
@@ -153,7 +153,7 @@ Go to Accessibility > Zoom
 Activate the hotkeys. At the bottom there are two options for how zoom works, either the whole screen is zoomed, or a small overlay acts as a magnifying glass.
 
 ## Copyright Notice
-This explanation, as well as the templates themselves are available unter MIT license. The images and logos in the assets folder are property of the HCU and thereby protected.
+This explanation, as well as the templates themselves are available under MIT license. The images and logos in the assets folder are property of the HCU and thereby protected.
 
 # Deutsche Version
 
@@ -166,34 +166,34 @@ Dieses Dokument und die Templates sind noch in Bearbeitung und minimale Änderun
 
 ## Einführung
 
-Bedingt durch COVID19, wird sich die Art und Weise wie wir dieses Semester unterrichten verändern. Ich habe verschiedene Werkzeuge ausprobiert, um Video Inhalte und Video Streams für meine Studierenden zu produzieren. Schlussendlich habe ich mich für die Open Broadcaster Software (OBS) Studio entschieden. Zum einen deckt die Anwendung alle meine Anforderungen an solch eine Anwendung ab (Szenen, Webcam, Screencast, Text-Input, etc.), darüber hinaus handelt es sich bei OBS um eine freie Open Source Anwendung, welche unter Windows, Mac und Linux läuft. Im folgenden werde ich eine sehr knappe Einführung in die Anwendungen geben und die Templates vorstellen, welche ich für meine Lehre an der HCU erstellt habe.
+Bedingt durch COVID19, wird sich die Art und Weise wie wir dieses Semester unterrichten verändern. Ich habe verschiedene Werkzeuge ausprobiert, um Video Inhalte und Video Streams für meine Studierenden zu produzieren. Schlussendlich habe ich mich für die Open Broadcaster Software (OBS) Studio entschieden. Zum einen deckt die Anwendung alle meine Anforderungen an solch eine Anwendung ab (Szenen, Webcam, Screencast, Text-Input, etc.), darüber hinaus handelt es sich bei OBS um eine freie Open Source Anwendung, welche unter Windows, Mac und Linux läuft. Im Folgenden werde ich eine sehr knappe Einführung in die Anwendungen geben und die Templates vorstellen, welche ich für meine Lehre an der HCU erstellt habe.
 
-Die Einführung fokussiert meinen Gebrauch der Anwendungen in der Lehre und ist sehr knapp gehalten. Es gibt jede Menge detaillierte Erläuterungen und Tutorials zu OBS, z.B.: https://streamshark.io/obs-guide/
+Die Einführung fokussiert meinen Gebrauch der Anwendungen in der Lehre und ist sehr knappgehalten. Es gibt jede Menge detaillierte Erläuterungen und Tutorials zu OBS, z.B.: https://streamshark.io/obs-guide/
 
 ## Was ist OBS
 
-Die OBS Anwendung erlaubt das Aufnahmen und Streamen von Videoinhalten. Die Anwendung ist sehr rudimentär, aber genau deshalb auch sehr einfach zu bedienen. Man kann sogenannte Szenen anlegen, welche es einem erlauben verscheidene Kombinationen von Input-Quellen zu arrangieren (Bildschirmaufnahme, Webcam, Bilder, Text, Web-Inhalte, etc.). Man kann während der Aufnahme bequem zwischen diesen Szenen hin- und herwechseln (z.B. ein Wechsel von einer Großdarstellung der Webcam auf eine Ansicht der Bildschirmaufnahme).
+Die OBS Anwendung erlaubt das Aufnehmen und Streamen von Videoinhalten. Die Anwendung ist sehr rudimentär, aber genau deshalb auch sehr einfach zu bedienen. Man kann sogenannte Szenen anlegen, welche es einem erlauben verschiedene Kombinationen von Input-Quellen zu arrangieren (Bildschirmaufnahme, Webcam, Bilder, Text, Web-Inhalte, etc.). Man kann während der Aufnahme bequem zwischen diesen Szenen hin- und herwechseln (z.B. ein Wechsel von einer Großdarstellung der Webcam auf eine Ansicht der Bildschirmaufnahme).
 
 OBS ist frei und open source. Das Projekt wird finanziell unterstützt von mehreren Firmen: twitch, facebook, nvidia, logitech xplit, games done quick und anderen.
 
 ## Anforderungen
 
 Eigentlich benötigt man nur einen Computer, alle anderen Anforderungen sind optional. Ich persönlich würde aber folgendes Setup empfehlen: 
-1. Ein zweiter Bildschirm: Mit einem zweiten Bildschirm hat man die Möglichkeit auf einem Bildschirm z.B. eine Präsentation zu zeigen oder ein Software-Tutorial durchzuführen, wähernd man auf dem anderen Bildschirm weiterhin die OBS Software einsehen kann und z.B. Szenenwechsel, etc. durchführt. Gerade wenn man Live-Streamen möchte, benötigt man den zweiten Bildschirm so oder so, um mit den Zuschauer*innen zu interagieren. 
-2. Eine Webcam: Zwar haben die meisten Laptops mittlerweile eine eingebaute Kamera, diese ist aber in der regel in einem nicht idealen Winkel zum Sprecher positioniert. Mit einer externen Kamera, kann man diese optimal frontal positionieren. Auch auf das halbwegs gleichmäßige ausleuchten des Gesichts sollte man achten, um harte Schatten zu vermeiden.
-3. Ein Mikrophon: Man sollte einen Test machen um auszuprobieren, ob das eingebaut Mikrophon des eigenen Computers ausreichend ist. Anderenfalls sollte man sich ein externes anschaffen.
+1. Ein zweiter Bildschirm: Mit einem zweiten Bildschirm hat man die Möglichkeit auf einem Bildschirm z.B. eine Präsentation zu zeigen oder ein Software-Tutorial durchzuführen, während man auf dem anderen Bildschirm weiterhin die OBS Software einsehen kann und z.B. Szenenwechsel, etc. durchführt. Gerade wenn man Live-Streamen möchte, benötigt man den zweiten Bildschirm so oder so, um mit den Zuschauer*innen zu interagieren. 
+2. Eine Webcam: Zwar haben die meisten Laptops mittlerweile eine eingebaute Kamera, diese ist aber in der regel in einem nicht idealen Winkel zum Sprecher positioniert. Mit einer externen Kamera kann man diese optimal frontal positionieren. Auch auf das halbwegs gleichmäßige ausleuchten des Gesichts sollte man achten, um harte Schatten zu vermeiden.
+3. Ein Mikrophon: Man sollte einen Test machen, um auszuprobieren, ob das eingebaut Mikrophon des eigenen Computers ausreichend ist. Anderenfalls sollte man sich ein externes anschaffen.
 
 ## Los geht's
 
 ### Download the software
 
-Software herunterladen und installieren [OBS website](https://obsproject.com/)
+Software herunterladen und installieren [OBS Webseite](https://obsproject.com/)
 
 ### Hinweis
 
 Es gibt keine Rückgängig-Funktion 🤯!
 
-### Initialler Start
+### Initialer Start
 
 Beim ersten Start der Anwendung, wird man durch ein Tutorial geleitet und Einstellungen festzulegen. Keine Sorge, diese kann man alle später einfach über das Menü wieder anpassen.
 
@@ -201,7 +201,7 @@ Beim ersten Start der Anwendung, wird man durch ein Tutorial geleitet und Einste
 
 ### Größe/Auflösung des Video Outputs
 
-Ich persönlich nehme meine Videos bei einer vollen Auflösung von 1920*1080 (Full HD) auf. Die Auflösung sollte auch auf die Inhalte abgestimmt sein. Ich selber mache Software-Tutorials (QGIS), möchte also das auch kleinere Details später sichtbar sind. Die Auflösung die man auswählt, hängt auch von der einem zur Verfügung stehenden Bandbreite ab. Nutzer*innen mit langsamem Internet, sollte eine geringere Auflösung wählen. Um die entsprechenden Einstellungen vorzunehmen:
+Ich persönlich nehme meine Videos bei einer vollen Auflösung von 1920*1080 (Full HD) auf. Die Auflösung sollte auch auf die Inhalte abgestimmt sein. Ich selber mache Software-Tutorials (QGIS), möchte also das auch kleinere Details später sichtbar sind. Die Auflösung, die man auswählt, hängt auch von der einem zur Verfügung stehenden Bandbreite ab. Nutzer*innen mit langsamem Internet, sollte eine geringere Auflösung wählen. Um die entsprechenden Einstellungen vorzunehmen:
 
 <img src="./readme_graphics/01-settings.png" width="410">
 
@@ -215,25 +215,25 @@ Zum "Video"-Tab gehen und die Einstellung einstellen. Bei langsamem Internet kan
 
 Es gibt verschiedene Inhaltstypen, um die Szenen für das eigene Seminar zu gestalten. Die wichtigsten sind u.a. Browser (Inhalte aus dem Internet zeigen, auch lokale Server), Display- oder Window-Capture (Bildschirmaufnahme), Bilder, Text und Video Capture Device (webcam). Um Inhalte hinzuzufügen, geht man zum "Sources"-Tab, klickt auf den "+"-Button und wählt den entsprechenden Inhalt aus. Die Einstellungen, welche man danach vornimmt, kann man später mit einem einfachen Doppel-Klick auf das Elemente in der "Sources"-Liste oder über Rechts-Klick > "Properties" vornehmen.
 
-Was sehr praktisch ist, man kann einmal angelegte Inhalte mehrfach benutzen. Dieses Feature kann aber auch zum Problem werden. Fügt man beispielsweise ein Text-Element erneut ein und ändert den Text, dann ändert sich der Text auch bei allen anderen Instanzen. Man kann dies auch umgehen, in dem man ein Element dupliziert.
+Was sehr praktisch ist, man kann einmal angelegte Inhalte mehrfach benutzen. Dieses Feature kann aber auch zum Problem werden. Fügt man beispielsweise ein Text-Element erneut ein und ändert den Text, dann ändert sich der Text auch bei allen anderen Instanzen. Man kann dies auch umgehen, indem man ein Element dupliziert.
 
 ### Text hinzufügen > Text-Breite
 
-Das einfügen und bearbeiten von Text ist relativ einfach. Man sollte dabei darauf achten, dass Text zwei Farben hat, welche man beide ändern muss, sonst bekommt man einen wenig ansehnlichen Verlauf in seiner Schrift. Wenn man einen längeren Text schreiben möchte, kann man am Ende der Text-Einstellungen eine Textbreite angeben und den automatischen Umbruch aktivieren.
+Das Einfügen und Bearbeiten von Text ist relativ einfach. Man sollte dabei darauf achten, dass Text zwei Farben hat, welche man beide ändern muss, sonst bekommt man einen wenig ansehnlichen Verlauf in seiner Schrift. Wenn man einen längeren Text schreiben möchte, kann man am Ende der Text-Einstellungen eine Textbreite angeben und den automatischen Umbruch aktivieren.
 
 ![Text Settings](./readme_graphics/03-text.png)
 
-Es gibt eine spezielle Funktion um Text in Echtzeit aus einer Textdatei einzulesen. Ändert sich der Text in der Datei, verändert sich der Text im Video automatisch. Hierfür muss man lediglich die Checkbox "Read from file" anklicken und dann eine entsprechende Datei auswählen. Es muss sich dabei um eine reine Textdatei handeln, kein formatierter Text wie z.B. eine Word-Datei.
+Es gibt eine spezielle Funktion, um Text in Echtzeit aus einer Textdatei einzulesen. Ändert sich der Text in der Datei, verändert sich der Text im Video automatisch. Hierfür muss man lediglich die Checkbox "Read from file" anklicken und dann eine entsprechende Datei auswählen. Es muss sich dabei um eine reine Textdatei handeln, kein formatierter Text wie z.B. eine Word-Datei.
 
 ### Inhalte skalieren
 
 <img src="./readme_graphics/04-scaling.png" width="585">
 
-Aus irgend einem Grund funktioniert das skalieren von Inhalten mit fixiertem Seitenverhältnis manchmal nicht und man verzerrt versehentlich Inhalte. Sollte dies passieren, kann man über einen Rechts-Klick auf das Elemente > "Transform" > "Edit Transform" > "Bounding Box" > "Scale to inner bound", das Problem lösen. Man kann nun das Rechteck beliebig skalieren und der Inhalt passt sich diesem an, ohne das Seitenverhältnis dabei zu verändern.
+Aus irgendeinem Grund funktioniert das skalieren von Inhalten mit fixiertem Seitenverhältnis manchmal nicht und man verzerrt versehentlich Inhalte. Sollte dies passieren, kann man über einen Rechts-Klick auf das Elemente > "Transform" > "Edit Transform" > "Bounding Box" > "Scale to inner bound", das Problem lösen. Man kann nun das Rechteck beliebig skalieren und der Inhalt passt sich diesem an, ohne das Seitenverhältnis dabei zu verändern.
 
 ### Schriften
 
-Bei meinen Tests hatte ich Probleme mit manchen Schriften bzw. Schriftstilen (fett, kursiv). Arial (auch wenn es nicht die hübscheste Schrift ist) schien sehr solide zu funktionieren. Für die Templates habe ich außerdem die Schrift Lato mit den den Assets-Order gepackt (assets/Lato2OFL), die Schrift ist unter einer Open Font License verfügbar (http://www.latofonts.com/).
+Bei meinen Tests hatte ich Probleme mit manchen Schriften bzw. Schriftstilen (fett, kursiv). Arial (auch wenn es nicht die hübscheste Schrift ist) schien sehr solide zu funktionieren. Für die Templates habe ich außerdem die Schrift Lato mit in den Assets-Order gepackt (assets/Lato2OFL), die Schrift ist unter einer Open Font License verfügbar (http://www.latofonts.com/).
 
 ### Präsentationen zeigen
 
@@ -243,7 +243,7 @@ Ich selber nutze einen PDF-Viewer (wie z.B. Acrobat) und lasse diesen in Vollbil
 
 ![Video Export](./readme_graphics/05-export.png)
 
-Während man Videos aufzeichnet, werden diese (empfohlene Standardeinstellung) als MKV Dateien abgespeichert. Um diese in ein übliches Videoformat wie z.B. MP4 zu konvertieren, muss man im Menü "File" > "Remux Recordings" auswählen. Dort wählt man dann links die Dateien aus die konvertiert werden sollen. Dann einfach auf "Remux" klicken. Nachdem alles konvertiert wurde, die Liste mit "Clear finished items" leeren.
+Während man Videos aufzeichnet, werden diese (empfohlene Standardeinstellung) als MKV Dateien abgespeichert. Um diese in ein übliches Videoformat wie z.B. MP4 zu konvertieren, muss man im Menü "File" > "Remux Recordings" auswählen. Dort wählt man dann links die Dateien aus, die konvertiert werden sollen. Dann einfach auf "Remux" klicken. Nachdem alles konvertiert wurde, die Liste mit "Clear finished items" leeren.
 
 ### HCU Vorlagen importieren
 
@@ -251,7 +251,7 @@ Ich habe ein paar Vorlagen für meine Lehre an der HafenCity Universität Hambur
 
 Um diese Vorlagen zu nutzen, einfach dieses Repository herunterladen, entpacken und dann unter "Scene Collection" > Import die folgende Datei auswählen: hcu_templates/hcu_templates.json.
 
-Nachdem Import sollte man eine Reihe Szenen sehen, welche im Folgenden weiter erkärt werden. **Ein Problem**: OBS speichert alle Pfade absolut, deshalb müssen alle Medien erneut verknüpft werden. Die Beispielmedien befinden sich alle in folgendem Ordner: hcu_templates/assets/... Einfach auf die entsprechenden Ressourcen klicken und die entsprechende Datei auswählen. Da jeder unterschiedliche Geräte besitzt, muss man natürlich auch seine Webcam und seinen "Secondary Screen" erneut auswählen. Wer sich mit JSON auskennt kann auch schnell die Pfade durch suchen-ersetzen anpassen.
+Nachdem Import sollte man eine Reihe Szenen sehen, welche im Folgenden weiter erklärt werden. **Ein Problem**: OBS speichert alle Pfade absolut, deshalb müssen alle Medien erneut verknüpft werden. Die Beispielmedien befinden sich alle in folgendem Ordner: hcu_templates/assets/... Einfach auf die entsprechenden Ressourcen klicken und die entsprechende Datei auswählen. Da jeder unterschiedliche Geräte besitzt, muss man natürlich auch seine Webcam und seinen "Secondary Screen" erneut auswählen. Wer sich mit JSON auskennt kann auch schnell die Pfade durch suchen-ersetzen anpassen.
 
 #### Übersicht
 
@@ -267,7 +267,7 @@ Alle Szenen haben eine ausgeblendete "Grid"-Source. OBS hat leider keine Hilfsmi
 
 <img src="./readme_graphics/obs-1-Intro-Shape-1.png" width="290"><img src="./readme_graphics/obs-1-Intro-Shape-2.png" width="290"><img src="./readme_graphics/obs-1-Intro-Shape-3.png" width="290">
 
-Ein einfacher Screen um seine Vorlesung zu starten. Einfach die "Sources" Meta-Title, Title und Daten Doppel-Klicken und anpassen. Das Hintergrundbild bei Bedarf durch ein Bild aus der Vorlesung austauschen. Um etwas Abwechslung in die Vorlesungen zu bringen, kann man verschiedene Grafiken über das Hintergrundbild legen. Einfach die "Line"-"Sources" ein- und ausschalten. In einer zweiten Version gibt es die Intro-Szenen auch mit einer Maske statt einer Umrisslinie.
+Eine einfache Szene um seine Vorlesung zu starten. Einfach die "Sources" Meta-Title, Title und Daten Doppel-Klicken und anpassen. Das Hintergrundbild bei Bedarf durch ein Bild aus der Vorlesung austauschen. Um etwas Abwechslung in die Vorlesungen zu bringen, kann man verschiedene Grafiken über das Hintergrundbild legen. Einfach die "Line"-"Sources" ein- und ausschalten. In einer zweiten Version gibt es die Intro-Szenen auch mit einer Maske statt einer Umrisslinie.
 
 #### Outro
 
@@ -281,7 +281,7 @@ Das Depandant zur Intro-Szene. Hier gibt es auch wieder verschiedene Outlines zu
 
 ![Webcam screen](./readme_graphics/obs-2-Webcam-Focus.png)
 
-Der Webcam-Focus setzt die Webcam in den Mittelpunkt. Ich nutze diese Ansicht um meine Vorlesung mit ein paar persönlichen Worten zu beginnen. Rechts ist ein Live-Text integriert um den Ablauf der Vorlesung anzuzeigen. Wer den Live-Text nutzen möchte, darf nicht vergessen die Datei nach dem Import zu verknüpfen.
+Der Webcam-Focus setzt die Webcam in den Mittelpunkt. Ich nutze diese Ansicht, um meine Vorlesung mit ein paar persönlichen Worten zu beginnen. Rechts ist ein Live-Text integriert, um den Ablauf der Vorlesung anzuzeigen. Wer den Live-Text nutzen möchte, darf nicht vergessen die Datei nach dem Import zu verknüpfen.
 
 #### Andere Szenen
 
