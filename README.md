@@ -262,20 +262,18 @@ Alle Szenen haben eine ausgeblendete "Grid"-Source. OBS hat leider keine Hilfsmi
 ##### Intro
 
 ![Intro screens](./readme_graphics/obs-0-Intro-Line-1.png)
-![Intro screens](./readme_graphics/obs-0-Intro-Line-2.png)
-![Intro screens](./readme_graphics/obs-0-Intro-Line-3.png)
 
-![Intro screens](./readme_graphics/obs-1-Intro-Shape-1.png)
-![Intro screens](./readme_graphics/obs-1-Intro-Shape-2.png)
-![Intro screens](./readme_graphics/obs-1-Intro-Shape-3.png)
+<img src="./readme_graphics/obs-0-Intro-Line-2.png" width="440"><img src="./readme_graphics/obs-0-Intro-Line-3.png" width="440">
+
+<img src="./readme_graphics/obs-1-Intro-Shape-1.png" width="290"><img src="./readme_graphics/obs-1-Intro-Shape-2.png" width="290"><img src="./readme_graphics/obs-1-Intro-Shape-3.png" width="290">
 
 Ein einfacher Screen um seine Vorlesung zu starten. Einfach die "Sources" Meta-Title, Title und Daten Doppel-Klicken und anpassen. Das Hintergrundbild bei Bedarf durch ein Bild aus der Vorlesung austauschen. Um etwas Abwechslung in die Vorlesungen zu bringen, kann man verschiedene Grafiken über das Hintergrundbild legen. Einfach die "Line"-"Sources" ein- und ausschalten. In einer zweiten Version gibt es die Intro-Szenen auch mit einer Maske statt einer Umrisslinie.
 
 #### Outro
 
 ![Outro screens](./readme_graphics/obs-6-Outro-1.png)
-![Outro screens](./readme_graphics/obs-6-Outro-2.png)
-![Outro screens](./readme_graphics/obs-6-Outro-3.png)
+
+<img src="./readme_graphics/obs-6-Outro-2.png" width="440"><img src="./readme_graphics/obs-6-Outro-3.png" width="440">
 
 Das Depandant zur Intro-Szene. Hier gibt es auch wieder verschiedene Outlines zum Auswählen. Diese sind so positioniert, dass man links Platz für z.B. Kontaktdaten hat.
 
@@ -288,18 +286,14 @@ Der Webcam-Focus setzt die Webcam in den Mittelpunkt. Ich nutze diese Ansicht um
 #### Andere Szenen
 
 ![Outro screens](./readme_graphics/obs-3-1-Screen-Focus.png)
-![Outro screens](./readme_graphics/obs-3-2-Screen-Full.png)
-![Outro screens](./readme_graphics/obs-3-3-Screen-No-Extras.png)
+
+<img src="./readme_graphics/obs-3-2-Screen-Full.png" width="440"><img src="./readme_graphics/obs-3-3-Screen-No-Extras.png" width="440">
 
 Die restlichen Szenen gibt es immer in drei Varianten: Focus (Video-Inhalt, Webcam, Live-Text, Logo), Full (Video-Inhalt, Kleine Webcam, Logo) und Full-no-Extras (nur Video-Inhalt). Diese Szenen gibt es für Screen-Sharing, Window-Sharing und Web-Inhalte.
 
-<img src="./readme_graphics/obs-4-1-Browser-Focus.png" width="150">
-<img src="./readme_graphics/obs-4-2-Browser-Full.png" width="150">
-<img src="./readme_graphics/obs-4-3-Browser-No-Extras.png" width="150">
+<img src="./readme_graphics/obs-4-1-Browser-Focus.png" width="290"><img src="./readme_graphics/obs-4-2-Browser-Full.png" width="290"><img src="./readme_graphics/obs-4-3-Browser-No-Extras.png" width="290">
 
-<img src="./readme_graphics/obs-5-1-Window-Focus.png" width="150">
-<img src="./readme_graphics/obs-5-2-Window-Full.png" width="150">
-<img src="./readme_graphics/obs-5-3-Window-No-Extras.png" width="150">
+<img src="./readme_graphics/obs-5-1-Window-Focus.png" width="290"><img src="./readme_graphics/obs-5-2-Window-Full.png" width="290"><img src="./readme_graphics/obs-5-3-Window-No-Extras.png" width="290">
 
 ### Zooming
 
