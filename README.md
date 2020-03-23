@@ -103,12 +103,9 @@ All scenes have a hidden "Grid"-Source. OBS does not have guides or a grid, whic
 
 ![Intro screens](./readme_graphics/obs-0-Intro-Line-1.png)
 
-<img src="./readme_graphics/obs-0-Intro-Line-2.png" width="440">
-<img src="./readme_graphics/obs-0-Intro-Line-3.png" width="440">
+<img src="./readme_graphics/obs-0-Intro-Line-2.png" width="440"><img src="./readme_graphics/obs-0-Intro-Line-3.png" width="440">
 
-<img src="./readme_graphics/obs-0-Intro-Shape-1.png" width="260">
-<img src="./readme_graphics/obs-0-Intro-Shape-2.png" width="260">
-<img src="./readme_graphics/obs-0-Intro-Shape-3.png" width="260">
+<img src="./readme_graphics/obs-1-Intro-Shape-1.png" width="260"><img src="./readme_graphics/obs-1-Intro-Shape-2.png" width="260"><img src="./readme_graphics/obs-1-Intro-Shape-3.png" width="260">
 
 
 Simple Screen for the starting of your lecture. Simply double-click Meta-Title, Title and Date, change to your likings. Exchange the Background-Image e.g. with a slide from your seminar. The intro comes in two flavours, the first has a color overlay on top of the background image, in order for making the text more readable. And then one of three outlines from the HCU corporate design. The second version uses the same outlines as masks.
