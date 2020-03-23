@@ -116,8 +116,9 @@ Simple Screen for the starting of your lecture. Simply double-click Meta-Title, 
 #### Outro
 
 ![Outro screens](./readme_graphics/obs-6-Outro-1.png)
-![Outro screens](./readme_graphics/obs-6-Outro-2.png)
-![Outro screens](./readme_graphics/obs-6-Outro-3.png)
+
+<img src="./readme_graphics/obs-6-Outro-2.png" width="440">
+<img src="./readme_graphics/obs-6-Outro-3.png" width="440">
 
 This is the companion to the Intro screen. The outro is also using one of three outlines from the HCU corporate design. The outlines are shifted to the right, so that there is enough room for contact info, etc.
 
@@ -130,18 +131,19 @@ Webcam focus puts focus on the webcam input, i am using this for kicking off my 
 #### Other screens
 
 ![Outro screens](./readme_graphics/obs-3-1-Screen-Focus.png)
-![Outro screens](./readme_graphics/obs-3-2-Screen-Full.png)
-![Outro screens](./readme_graphics/obs-3-3-Screen-No-Extras.png)
+
+<img src="./readme_graphics/obs-3-2-Screen-Full.png" width="440">
+<img src="./readme_graphics/obs-3-3-Screen-No-Extras.png" width="440">
 
 The rest of the screens come in three different versions: Focus (Video-Content, Webcam, Notes and Logo), Full (Video-Content, Small Webcam and Logo), Full-No-Extras (Only Video-Content). The Mix of content is either a full screen capture, a window capture or browser content.
 
-<img src="./readme_graphics/obs-4-1-Browser-Focus.png" width="150">
-<img src="./readme_graphics/obs-4-2-Browser-Full.png" width="150">
-<img src="./readme_graphics/obs-4-3-Browser-No-Extras.png" width="150">
+<img src="./readme_graphics/obs-4-1-Browser-Focus.png" width="260">
+<img src="./readme_graphics/obs-4-2-Browser-Full.png" width="260">
+<img src="./readme_graphics/obs-4-3-Browser-No-Extras.png" width="260">
 
-<img src="./readme_graphics/obs-5-1-Window-Focus.png" width="150">
-<img src="./readme_graphics/obs-5-2-Window-Full.png" width="150">
-<img src="./readme_graphics/obs-5-3-Window-No-Extras.png" width="150">
+<img src="./readme_graphics/obs-5-1-Window-Focus.png" width="260">
+<img src="./readme_graphics/obs-5-2-Window-Full.png" width="260">
+<img src="./readme_graphics/obs-5-3-Window-No-Extras.png" width="260">
 
 ### Zooming
 
